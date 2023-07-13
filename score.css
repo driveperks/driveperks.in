@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+
+}
+
+body{
+    background:url(minimalism-abstract-pattern-digital-art-wallpaper-preview.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro{
+    padding-right: 2px;
+    color: blanchedalmond;
+}
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.2);
+                
+            
+                
+    
+}
+
+
+
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2);
+    
+}
+
+#num{
+    font-weight: 600px;
+    color: #ffffff;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dasharray: 472;
+    animation: anim 4s linear forwards;
+}
+
+.button{
+    background-color: #B8621B;
+    padding: 15px 32px;
+    color: white;
+    font-size: 16px;
+    border-radius: 28px;
+    margin:1.5em 0 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #555;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+.s{
+    background-color: #B8621B;
+    padding: 15px 32px;
+    color: white;
+    font-size: 16px;
+    border-radius: 28px;
+    margin:1.5em 0 0;
+    display: inline-block;
+    margin-right: 300px;
+    margin-top: 500px;
+    text-decoration: none;
+}
+
+
+
+
+@keyframes anim {
+    100%{
+        stroke-dashoffset: 175;
+    }
+    
+}
